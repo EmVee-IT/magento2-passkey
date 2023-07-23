@@ -1,0 +1,38 @@
+# Ignore .git
+/.git
+
+# Ignore temp/cache files
+/var/*
+!/var/.htaccess
+
+# Ignore vendor directory
+/vendor/*
+
+# Ignore generated static content
+/pub/static/*
+!/pub/static/.htaccess
+
+# Ignore media customer and product files
+/pub/media/catalog/*
+/pub/media/customer/*
+
+# Ignore generated code directory
+/generated/*
+
+# Ignore system specific files
+/.idea
+/.DS_Store
+/.php_cs
+/.php_cs.dist
+/.phpunit.result.cache
+/.selenium
+/app/config_sandbox
+/app/etc/config.php
+/app/etc/env.php
+/app/etc/config.php
+/app/etc/config.test.php
+/nginx.conf.sample
+/phpserver
+/setup
+/update
+
